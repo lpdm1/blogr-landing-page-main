@@ -112,6 +112,15 @@ nav {
 
 /* Login Menu Hover */
 
+.login:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(208, 49%, 24%);
+}
+.signup:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(208, 49%, 24%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
