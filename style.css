@@ -44,10 +44,14 @@ display: inline-block;
 .menu a:hover{
 text-decoration: underline;
 color: hsl(208, 49%, 24%);
+font-weight: bold;
 }
 
 /* Submenu level 1 stles */
 
+.submenu a{
+  color: hsl(208, 49%, 24%);
+}
 .submenu{
   color: hsl(208, 49%, 24%);
   background-color: hsl(0, 0%, 100%);
