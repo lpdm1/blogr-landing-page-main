@@ -7,14 +7,15 @@
 }
 body {
   color: hsl(208, 49%, 24%);
-  font-family: Overpass, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Overpass, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header {
   background: hsl(356, 100%, 66%);
   border-radius: 0px 0px 0px 50px;
   padding: 2rem 5rem;
 }
-nav{
+nav {
   max-width: 1100px;
   margin: 0;
   padding: 0;
@@ -22,15 +23,16 @@ nav{
   align-items: center;
   /* justify-content: space-between; */
 }
-.logo{
+.logo {
   font-size: 1.5rem;
   font-weight: 600;
   color: hsl(0, 0%, 100%);
 }
-.menu > li, .menu > a {
-display: inline-block;
+.menu > li,
+.menu > a {
+  display: inline-block;
 }
-.menu li{
+.menu li {
   position: relative;
 }
 .menu a {
@@ -39,23 +41,23 @@ display: inline-block;
   display: block;
   padding: 10px 1.5rem;
   margin-top: 15px;
-  transition: color .22s ease;
+  transition: color 0.22s ease;
 }
 
-.menu a:hover{
-text-decoration: underline;
-color: hsl(208, 49%, 24%);
-font-weight: bold;
+.menu a:hover {
+  text-decoration: underline;
+  color: hsl(208, 49%, 24%);
+  font-weight: bold;
 }
 
 /* Submenu level 1 stles */
 
-.submenu a{
+.submenu a {
   color: hsl(208, 49%, 24%);
   padding: 5px;
   margin: 0;
 }
-.submenu{
+.submenu {
   color: hsl(208, 49%, 24%);
   background-color: hsl(0, 0%, 100%);
   position: absolute;
@@ -66,7 +68,7 @@ font-weight: bold;
 
 /* Show menu on hover */
 
-.menu li:hover > .submenu{
+.menu li:hover > .submenu {
   display: block;
   background-color: hsl(0, 0%, 100%);
   color: hsl(208, 49%, 24%);
@@ -79,11 +81,41 @@ font-weight: bold;
 #page-title {
   font-size: 1.5rem;
   padding: 0px 2.5rem 0px 0px;
-/* }
+}
+/* Login Menu Styles */
+
+.login-menu {
+  margin-left: auto;
+  color: hsl(208, 49%, 24%);
+}
+.login-menu a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.login {
+  margin: 0.25rem;
+  padding: 0.5rem;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(208, 49%, 24%);
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.signup {
+  margin: 0.25rem;
+  padding: 0.5rem;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(208, 49%, 24%);
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Login Menu Hover */
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-} */
+}
